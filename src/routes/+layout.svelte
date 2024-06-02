@@ -7,7 +7,7 @@
 
 <Main>
 	<Navbar />
-	<div class="flex-grow px-4">
+	<div class="max-h-full flex-grow overflow-y-auto px-4">
 		<slot></slot>
 	</div>
 	<Footer />
